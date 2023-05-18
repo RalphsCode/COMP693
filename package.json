@@ -1,0 +1,17 @@
+{
+  "name": "comp_693_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {"compile": "babel src --presets @babel/react src --out-dir public",
+              "watch": "babel src --presets @babel/react src --out-dir public --watch --verbose",
+              "start": "nodemon app.js"  },
+  "author": "Ralph Godkin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
